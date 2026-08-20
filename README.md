@@ -21,3 +21,17 @@ AWS Secret Access Key [None]: UMmJZtaQKcloqgfMmB8IgDjOK88Hu5E82lB3yRQR
 Default region name [None]: us-east-1
 Default output format [None]:
 ```
+
+---
+
+```bash
+vim ~/.aws/config
+```
+
+```
+[default]
+region = us-east-1
+endpoint_url = https://rustfs.k8s.shubhamtatvamasi.com
+```
+
+
