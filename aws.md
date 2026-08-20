@@ -1,5 +1,12 @@
 # AWS
 
+Install `aws` cli:
+```bash
+brew install awscli
+```
+
+---
+
 Generate Access Key ID:
 ```bash
 openssl rand -hex 10 | tr '[:lower:]' '[:upper:]'
@@ -11,11 +18,6 @@ openssl rand -base64 30
 ```
 
 ---
-
-Install `aws` cli:
-```bash
-brew install awscli
-```
 
 Config your key:
 ```bash
