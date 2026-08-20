@@ -9,12 +9,12 @@ brew install awscli
 
 Generate Access Key ID:
 ```bash
-openssl rand -hex 10 | tr '[:lower:]' '[:upper:]'
+openssl rand -base64 32 | tr -dc 'A-Z0-9' | head -c 20; echo
 ```
 
 Generate Secret Access Key:
 ```bash
-openssl rand -base64 30
+openssl rand -base64 64 | tr -dc 'A-Za-z0-9' | head -c 40; echo
 ```
 
 ---
