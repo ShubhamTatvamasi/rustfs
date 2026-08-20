@@ -12,6 +12,11 @@ openssl rand -base64 30
 
 ---
 
+Install `aws` cli:
+```bash
+brew install awscli
+```
+
 Config your key:
 ```bash
 aws configure
