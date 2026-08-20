@@ -12,7 +12,7 @@ Generate Access Key ID:
 openssl rand -hex 10 | tr '[:lower:]' '[:upper:]'
 ```
 
-Generate Secret Access Key ID:
+Generate Secret Access Key:
 ```bash
 openssl rand -base64 30
 ```
