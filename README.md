@@ -34,3 +34,8 @@ check file:
 ```bash
 cat test.txt
 ```
+
+delete file from s3:
+```bash
+aws s3 rm s3://test-bucket/test.txt
+```
