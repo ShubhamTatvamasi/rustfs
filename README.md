@@ -29,3 +29,8 @@ download file:
 ```bash
 aws s3 cp s3://test-bucket/test.txt .
 ```
+
+check file:
+```bash
+cat test.txt
+```
